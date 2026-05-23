@@ -1,7 +1,7 @@
 services:
   # Whatomate app
   app:
-    build: ..
+    build: .
     container_name: whatomate_app
     restart: unless-stopped
     ports:
