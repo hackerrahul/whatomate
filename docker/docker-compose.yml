@@ -1,9 +1,7 @@
 services:
   # Whatomate app
   app:
-    build:
-    context: ..
-    dockerfile: Dockerfile
+    build: ..
     container_name: whatomate_app
     restart: unless-stopped
     ports:
